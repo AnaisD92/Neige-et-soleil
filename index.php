@@ -202,6 +202,5 @@ background-size: cover;
 
 </style>
  </html>
-
 <?php //Footer commun à toutes les pages 
 require "footer.php";  ?>

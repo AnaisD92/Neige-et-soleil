@@ -135,12 +135,7 @@ if ( isset( $_SESSION['firstName'] ) AND isset( $_SESSION['lastName'] ) ) {
                                     Appartement
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="cat" id="gridRadios2" value="chalet">
-                                <label class="form-check-label" for="gridRadios2">
-                                    Chalet
-                                </label>
-                            </div>
+                           
 
                         </div>
                     </div>

@@ -49,10 +49,15 @@ if ( isset( $_POST['submit'] ) ) {
 <div class="container">
     <div class="row">
         <div class="col-12">
-
             <form class="mt-5" action="#" method="post">
                 <fieldset class="form-group">
+                Vous êtes ? : <select name="typeC">
+<option value="">Veuillez choisir le type de compte</option>
+<option value="proprietaire">Propriétaire</option>
+<option value="utilisateurs">Locataire</option>
+</select></br></br>
                     <div class="row">
+                        
                         <legend class="col-form-label col-sm-2 pt-0">Civilité</legend>
                         <div class="col-sm-10">
                             <div class="form-check">
@@ -111,7 +116,7 @@ if ( isset( $_POST['submit'] ) ) {
                 <div class="form-group row">
 
                 </div>
-                <div class="col-sm-15 text-center">
+                <div class="col-sm-10 text-center">
                     <button type="submit" name="submit" class="btn btn-lg btn-primary btn-block">Inscription</button>
                     <br>
                     <a class="btn btn-sm btn-outline-secondary" href="index.php">Retour</a>

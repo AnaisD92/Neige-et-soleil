@@ -87,7 +87,11 @@ if(isset($_POST['submit'])){
             <br>
             <h1 class="h3 mb-3 font-weight-normal">Connexion :</h1>
         </div>
-
+        Vous êtes ? : <select name="typeC">
+<option value="">Veuillez choisir le type de compte</option>
+<option value="proprietaire"> Propriétaire </option>
+<option value="utilisateurs"> Locataire </option>
+</select></br></br>
         <div class="form-label-group">
             <label for="inputEmail3">Email </label>
             <input type="email" id="inputEmail3" class="form-control" placeholder="Adresse e-mail" name="email" required autofocus>
@@ -97,13 +101,18 @@ if(isset($_POST['submit'])){
         <div class="form-label-group">
             <label for="inputPassword3">Mot de passe</label>
             <input type="password" id="inputPassword3" class="form-control" placeholder="Mot de passe" name="password" required>
+            
 
         </div>
-        <br>
+       
+<a href="inscription.php">
+<FONT face="Verdana">S'inscrire<font></a>
+</font></FONT></center>  <br>
 
         <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Connexion</button>
     </form>
     <br>
+    
     <a class="btn btn-sm btn-outline-secondary" href="index.php">Retour</a> 
     <br><br>
 </div>
